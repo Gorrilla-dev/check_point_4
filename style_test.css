@@ -1,0 +1,75 @@
+.logo-docplanner{
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+.lead__logo{
+    align-self: center;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color:#00ccb1;
+
+}
+.articles{
+    display: flex;
+    justify-content:space-between;
+}
+.txt_1{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+.txt_2{
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+.page-footer{
+    margin-top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: x-small;
+}
+.componant{
+    height: 400px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 15px 15px 15px 15px;
+}
+.cover{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.info{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 8px;
+}
+.btn{
+    height: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+.componant:hover{
+    box-shadow: 10px 30px #a3a3a3;
+    cursor: pointer;
+}
+.txt_3{
+    display: flex;
+    justify-content: center;
+}
